@@ -1,0 +1,451 @@
+
+
+@media screen and (max-width: 1024px ){
+    br {
+        display: none;
+    }
+    .animation {
+        display: none;
+    }
+   
+    .entrans {
+        background-position: center center;
+        background-size: none;
+        transition: 1s forward;
+    }
+    .vector0 {
+        display: none;
+    }
+    /* This for Carrier 1 */
+    .carrier1 {
+        width: 100%;
+        height: 760px;
+    }
+    .nav {
+        display: none;
+    }
+    .title h1{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    .bannerbtn {
+        width: 30%;
+        height: auto;
+    }
+    .borderNavigator {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+    }
+    .borderNavigator span {
+        width: 10px;
+        height: 10px;
+    }
+    
+    
+    /* This is For Carrier 2 */
+    .carrier2 {
+        width: 100%;
+        height: 1300px;
+       
+    }
+    .carry1 {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        height: 1200px;
+    }
+    .carry1left {
+        width: 100%;
+        height: auto;
+    }
+    .carry1right {
+        width: 100%;
+        height: auto;
+    }
+    .mission {
+        width: 90%;
+        height: 480px;
+        top: -400px;
+        margin: 0;
+        display: grid;
+        place-items: center center;
+        
+    }
+    .mission h1 {
+        font-size: 30px;
+    }
+    .mission p {
+        font-size: 12px;
+    }
+    .mission button {
+        width: 50%;
+        height: 30px;
+        font-size: 12px;
+    }
+    .unknown1 {
+        width: 100%;
+        height: 120px;
+        margin: 0;
+        top: -600px;
+    }
+    .unknown0 {
+        display: none;
+    }
+    .vision {
+        width: 90%;
+        height: 400px;
+        margin: 0;
+        bottom: -600px;
+        display: grid;
+        place-items: center center;
+    }
+    .vision p {
+        font-size: 12px;
+        
+    }
+    .vision h1 {
+        font-size: 30px;
+    }
+    .vision button {
+        font-size: 12px;
+        width: 50%;
+        height: 30px;
+    }
+    
+    /* This is For Carrier 3 */
+    .carrier3 {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        place-items: center center;
+        justify-content: center;
+    }
+    .carry2 {
+        width: 95%;
+        height: 700px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+        margin: 0;
+    }
+    .carry2title {
+        width: auto;
+        height: auto;
+        text-align: center;
+        top: -90px;
+        left: 0;
+        right: 0;
+        margin: 0;
+    }
+    
+    .carry2title h1 {
+        font-size: 28px;
+    }
+    .carry2left {
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .carry2left img {
+        width: 300px; 
+        height: 200px;
+        margin: 0;
+    }
+    
+    .carry2right {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        place-items: center center;
+        margin: 0;
+    }
+    .carry2doc {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        place-items: center center;
+        text-align: center;
+    }
+    .carry2doc h1 {
+        font-size: 28px;
+        top: 0;
+        margin: 20px;
+    }
+    .carry2doc p {
+        font-size: 13px;
+        margin: 0;
+    }
+    .carry2right button {
+        width: 90%;
+        height: 30px;
+        margin-top: 3%;
+    }
+    
+    /* Carrier 4 */
+    
+    .carrier4 {
+        width: 100%;
+        height: 2350px;
+        display: flex;
+        flex-flow: column;
+    }
+    .directors {
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+        margin: 0;
+    }
+    .directorsTitle {
+        width: 100%;
+        height: auto;
+    }
+    .directorsTitle h1 {
+        font-size: 29px;
+    }
+    .volunteersTitle {
+        width: 100%;
+        height: auto;
+    }
+    .volunteersTitle h1 {
+        font-size: 29px;
+    }
+    .carrierflexing {
+        margin: 5px 0px 0px 0px;
+        width: 95%;
+        height: 340px;
+    }
+    .carrierflexing img {
+        width: 50%;
+        height: 100%;
+    }
+    .carrier4text {
+        width: 50%;
+        height: 100%;
+    }
+    .carrier4text h1 {
+        font-size: 17px;
+    }
+    .carrier4text p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .carrier4text button {
+        width: 150px;
+        height: 20px;
+    }
+    .volunteers {
+        width: 100%;
+        height: 1100px;
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+    }
+    
+    /* Carrier 5 */
+    
+    .carrier5 {
+        width: 100%;
+        height: 1300px;
+        overflow: hidden;
+    }
+    .carrier5 h1 {
+        margin: 15px;
+    }
+    .carry3 {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+    }
+    .carry3left {
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+    .carry3left1 {
+        width: 100%;
+        height: 150px;
+        box-shadow: 0px 0px 50px #000;
+    }
+    .carry3left1 span {
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .carry3right {
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+    .carry3right1 {
+        width: 100%;
+        height: 150px;
+        box-shadow: 0px 0px 50px #000;
+    }
+    .carry3right1 span {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+    }
+    
+    .vectorSpan {
+        width: 100%;
+        height: auto;
+    }
+    
+    .vectorSpan h1 {
+        top: -620px;
+        right: 0;
+    }
+    .vectorSpan span {
+        display: none;
+    }
+    
+    /* Carrier 6 */
+    
+    .carrier6 {
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+    }
+    .carry4 {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .carry4leftIcons {
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+        
+    }
+    .carry4leftIcons div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+    }
+    .carry4leftIcons img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    .carry4Text {
+        top: -50px;
+    }
+    .name {
+        width: 100%;
+        height: auto;
+    }
+    .name p {
+        font-size: 2px;
+    }
+    .name h3 {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    .carry4left {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .carry4Text h1 {
+        font-size: 21px;
+    }
+    .carry4right {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .contactForm {
+        width: 90%;
+        height: 600px;
+    }
+    .contactForm h1 {
+        font-size: 21px;
+    }
+    .firstN {
+        width: 50%;
+        height: auto;
+        margin: 30px 10px 0px 10px;
+    }
+    .firstN input {
+        width: 100%;
+        height: 20px;
+    }
+    .firstN select {
+        width: 100%;
+        height: 20px;
+    }
+    .lastN {
+        width: 50%;
+        height: auto;
+        margin: 30px 10px 0px 10px;
+    }
+    .lastN input {
+        width: 100%;
+        height: 20px;
+    }
+    .forcheckbox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: left;
+    }
+    .forcheckbox input {
+        width: 10px;
+        height: 10px;
+        border-radius: 20px;
+    }
+    /* footer */
+    footer {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-flow: column;
+        place-items: center center;
+    }
+    .leftFooter {
+        width: 100%;
+        height: auto;
+    }
+    .leftFooter img {
+        width: 80px;
+        height: auto;
+    }
+    .rightFooter {
+        width: 90%;
+        height: auto;
+    }
+    .footerImg {
+        width: 90%;
+        height: auto;
+    }
+    .footerlinks {
+        width: 100%;
+        display: flex;
+    }
+    
+    .rightFooter h4{
+        left: 0;
+        font-size: 18px;
+    }
+}
