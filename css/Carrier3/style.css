@@ -1,0 +1,82 @@
+
+
+    /* Carrier 3 */
+    
+    .carrier3 {
+        width: 100%;
+        height: 690px;
+        background-color: #e3dfdf;
+    }
+    
+    .carry2 {
+        width: 100%;
+        height: 640px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .carry2title {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 20px;
+        text-align: center;
+    }
+    .carry2title h1 {
+        font-size: 55px;
+        font-weight: bolder;
+        color: #1f1369;
+        margin-top: 10px;
+    }
+    
+    .carry2left {
+        width: 50%;
+        height: auto;
+        display: grid;
+        place-items: center center;
+        margin: 65px 0px 0px 0px;
+    }
+
+    .carry2left img {
+        width: 90%;
+        height: 480px;
+        margin-top: 50px;
+    }
+    
+    .carry2right {
+        width: 50%;
+        height: auto;
+        margin: 115px 0px 0px 0px;
+    }
+    .carry2doc {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+    .carry2doc h1 {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        font-size: 50px;
+        color: #1f1369;
+    }
+    .carry2doc p {
+        font-size: 21px;
+        color: #1f1369;
+        margin: 10px 50px 0px 0px;
+        line-height: 35px;
+    }
+    .carry2right button {
+        width: 30%;
+        height: 30px;
+        font-size: 12px;
+        border: 2px solid #1f1369;
+        background: transparent;
+        color: #1f1369;
+        border-radius: 50px;
+        transition: 1s ease-in-out;
+}
+    .carry2right button:hover {
+        background-color: #1f1369;
+        color: #fff;
+    }
