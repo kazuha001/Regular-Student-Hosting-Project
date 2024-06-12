@@ -1,0 +1,140 @@
+/* Default */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.BurgerMenu {
+        position: fixed;
+        z-index: 5;
+        right: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        opacity: 1;
+        transition: 0.3s ease-in-out;
+ }
+ .BurgerMenu:hover {
+     opacity: 0.5;
+ }
+ 
+ .menu {
+     width: 80%;
+     height: 740px;
+     background-color: #1f1369;
+     position: fixed;
+     z-index: 4;
+     display: flex;
+     flex-flow: row;
+     justify-content: center;
+     transition: 1s ease-in-out;
+     right: -100%;
+ }
+ .navMune {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-flow: column;
+     margin-top: 60px;
+ }
+ .navMune ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+ }
+ .navMune li {
+     width: 100%;
+     height: 50px;
+     display: grid;
+     place-items: center center;
+     background-color: transparent;
+     transition: 1s ease-in-out;
+     box-shadow: 0px 0px 0px #000;
+ }
+ .navMune li:hover {
+     box-shadow: 0px 0px 50px #000;
+ }
+ .navMune a {
+     text-decoration: none;
+     color: #fff;
+ }
+ .searchMenu {
+     width: 100%;
+     height: 50px;
+     display: grid;
+     place-items: center center;
+ }
+ .searchMenu input {
+     background: transparent;
+     border: none;
+     border-bottom: 1px solid #fff;
+     width: auto;
+     height: auto;
+ }
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.carrier {
+    width: 100%;
+    height: auto;
+    background-color: #000; /* overall bg color */
+}
+.img1 {
+    background-image: url('images/Banner/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img2 {
+    background-image: url('images/Banner/circle1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    background-image: url('images/Banner/circle2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Color 1 #1d2a63 */
+/* Color 2 #1f1369 */
+/* Color 3 #777fa1 */
+/* Color 4 #e3dfdf */
+/* Color 5 #87ceeb */
+
+/* Carrier 5 bg */
+
+.carrier5 {
+    background-image: url('images/Unknown/sky blue.png');
+    background-position: center;
+    background-size: cover;
+}
+.entrans {
+    background-image: url('images/Parallax/parallax.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    transition: 0.5s forward;
+    -webkit-transition: 0.5s forward;
+    -moz-transition: 0.5s forward;
+    -ms-transition: 0.5s forward;
+    -o-transition: 0.5s forward;
+}
+.animation {
+    width: 100%;
+    height: 5000px;
+}
+.counter {
+    position: fixed;
+    z-index: 5;
+}
