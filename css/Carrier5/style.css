@@ -1,0 +1,193 @@
+
+    /* Carrier 5 */
+
+    .carrier5 {
+        width: 100%;
+        height: 1500px;
+        background-color: aqua;
+        display: flex;
+        place-items: center center;
+        position: relative;
+        z-index: 1;
+    }
+    .vectorSpan {
+        position: absolute;
+        width: 100%;
+        height: 1200px;
+        z-index: -1;
+        display: grid;
+        place-items: center center;
+    }
+    .vectorSpan h1 {
+        position: absolute;
+        right: 70px;
+        top: -25px;
+        font-size: 40px;
+        letter-spacing: 7px;
+        color: #fff;
+        font-style: italic;
+        text-shadow: -5px 1px 6px #000;
+    }
+    .line1 {
+        position: absolute;
+        width: 28%;
+        height: 10px;
+        top: 0;
+        right: 298px;
+        background-color: #fff;
+    }
+    .line2 {
+        position: absolute;
+        width: 5px;
+        height: inherit;
+        background-color: #fff;
+    }
+    .Circles {
+        width: 25px;
+        height: 25px;
+        border-radius: 1000vh;
+        background-color: #fff;
+        position: absolute;
+    }
+    .Circle1 {
+        right: 290px;
+        top: -8px;
+    }
+    .Circle2 {
+        top: 200px;
+    }
+    .Circle3 {
+        top: 415px;
+    }
+    .Circle4 {
+        top: 604px;
+    }
+    .Circle5 {
+        top: 815px;
+    }
+    .Circle6 {
+        top: 1005px;
+    }
+    .Circle7 {
+        top: 1200px;
+    }
+    .carry3 {
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+    .carry3left {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        place-items: center center;
+        
+    }
+    .carry3left1 {
+        width: 80%;
+        height: 190px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        place-items: center center;
+        margin: 15px;
+        position: relative;
+        z-index: 1;
+        text-shadow: -5px 1px 6px #000;
+    }
+    .carry3left1 span {
+        width: 95%;
+        height: 95%;
+        border: 5px solid #1d2a63;
+        position: absolute;
+        right: -20px;
+        bottom: -15px;
+        z-index: -1;
+    }
+    .carry3left1 img {
+        width: 33%;
+        height: 100%;
+    }
+    .carry3right {
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        place-items: center center;
+        margin-top: 220px;
+    }
+    .carry3right1 {
+        width: 80%;
+        height: 190px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        place-items: center center;
+        margin: 15px;
+        position: relative;
+        z-index: 1;
+        text-shadow: -5px 1px 6px #000;
+    }
+    .carry3right1 span {
+        width: 95%;
+        height: 95%;
+        border: 5px solid #1d2a63;
+        position: absolute;
+        left: -20px;
+        bottom: -15px;
+        z-index: -1;
+    }
+    .carry3right1 img {
+        width: 33%;
+        height: 100%;
+    }
+
+    /* For Headers */
+    .sat1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        top: -20px;
+        left: -20px;
+    }
+    .mg1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        right: -20px;
+        top: -20px;
+    }
+    .wed1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        left: -20px;
+        top: -20px;
+    }
+    .th1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        right: -20px;
+        top: -20px;
+    }
+    .ar1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        left: -20px;
+        top: -20px;
+    }
+    .ym1 {
+        text-align: center;
+        position: absolute;
+        color: #fff;
+        right: -20px;
+        top: -20px;
+    }
+
